@@ -1,41 +1,37 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+* {
+    margin: 0px;
+    /*box-sizing: border-box;*/
 }
 
-header{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
 
-h1 {
+#titulo {
     color: red;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
-.container input {
-    display: flex;
-    flex-direction: column;
+.texto-paragrafo {
+    text-align: center;
+}
+
+.entradas-usuario {
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rodape {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 input {
-    margin-bottom: 8px;
-    width: 300px;
-    height: 25px;
+    display: block;
 }
